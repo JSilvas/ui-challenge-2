@@ -9,7 +9,54 @@
     <title>UI Challenge 2</title>
   </head>
   <body>
-    
+    <h1>UI Challenge - Custom Form Elements</h1>
+    <p><em><b>Note:<b>Lorem ipsum dolor sit amet, pri dicam vivendum periculis at, est quidam integre ne. Vel principes conclusionemque et, id idque consul graecis pri. Ne pro quaeque nominavi scaevola. His viderer offendit at, ex regione prompta maluisset mel. Eu quo autem quidam ceteros, ius ex nemore everti abhorreant.</em></p>
+      
+    <form>
+      text input<br>
+      <input type="text" name="text-input"><br>
+    </form>
+    <form>
+      text input w/ validation Error<br>
+      <input type="text" name="text-input-valid"><br>
+    </form>
+
+    <form>
+        select box<br>
+        <select name="select-box">
+          <option value=""></option>
+        </select>
+      </form>
+
+    <form>
+      select box - open<br>
+      <select class="arrdown" name="cars" size="5">
+        <option value="option-1">option 1</option>
+        <option value="option-2">option 2</option>
+        <option value="option-3">option 3</option>
+        <option value="option-4">option 4</option>
+        <option value="option-5">option 5</option>
+      </select>
+    </form>
+
+    <form action="/action_page.php" method="get">
+      checkbox<br>
+      <input class="check" type="checkbox" name="check1" value="">
+      <input class="nocheck" type="checkbox" name="check2" value="">
+    </form>
+
+    <form>
+      radio<br>
+      <input class="bullet" type="radio" name="gender" value="male" />
+      <input class="nobullet" type="radio" name="gender" value="female" />
+    </form>
+
+    <form>
+      buttons<br>
+      <input class="light-btn" type="button" onclick="alert('That tickles!')" value="submit">
+      <input class="dark-btn" type="button" onclick="alert('Im just here for the food...')" value="submit">    
+    </form>
+
     <script src="app.js"></script>  
   </body>
 </html>
