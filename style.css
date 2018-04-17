@@ -1,0 +1,65 @@
+* {
+  outline: 1px dashed orange;
+}
+html {
+  width: 600px;
+  padding: 0 10%;
+}
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 1.2rem;
+  color: ghostwhite;
+  background-color: rgb(23, 39, 39);
+  width: 500px;
+  margin: 0px auto;
+  text-align: left;
+}
+h1 {
+  text-align: center;
+  font-size: 1.6rem;
+  text-decoration: underline; 
+}
+h2 {
+  font-size: 1.4rem;
+}
+h3 {
+  font-size: 1.2rem;
+}
+em {
+  font-weight: 100;
+  font-style: italic;
+}
+
+.active {
+
+}
+
+/* Button Sprites */
+.check, .uncheck, .bullet, .nobullet, .arrup, .arrdown {
+  background-image: url('form-elements-sprite.png');
+  background-repeat: no-repeat;
+}
+.check {
+  height: 50px;
+  background-position: -5px -5px;
+}
+.nocheck {
+  height: 50px;
+  background-position: -5px -5px;
+}
+.bullet {
+  height: 50px;
+  background-position: -5px -5px;
+}
+.nobullet {
+  height: 50px;
+  background-position: -5px -5px;
+}
+.arrup {
+  height: 50px;
+  background-position: -5px -5px;
+}
+.arrdown {
+  height: 50px;
+  background-position: -5px -5px;
+}
